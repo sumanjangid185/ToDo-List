@@ -1,0 +1,45 @@
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  label {
+    margin-right: 10px;
+    padding-left: 5px;
+  }
+
+
+  label .nameee{
+  color:yellow;
+
+  }
+  label .dateee{
+    color:yellow;
+  }
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

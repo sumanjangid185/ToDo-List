@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("C:\Users\us\Desktop\Reactjs\1st-project\dark.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* Set the default text color to white */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust to your needs */
+}
+
+.container {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  border-radius: 8px;
+  border: 2px solid #fff; /* White border */
+}
+
+.outer {
+  display: grid;
+  grid-template-columns: 1fr; /* Set to one column */
+  gap: 15px; /* Reduced gap between elements */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px; /* Reduced outer padding */
 }
 
-.App-link {
-  color: #61dafb;
+.mynewclass {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #fff; /* White border */
+  border-radius: 8px;
+  padding: 8px; /* Reduced padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px; /* Reduced margin */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.date-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px; /* Reduced margin-top */
+}
+
+.btn {
+  background-color: #8e44ad; /* Purple color, matching the background */
+  color: #fff;
+  padding: 6px 10px; /* Reduced padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #6c3483; /* Darker purple color on hover */
+}
+
+.hhh1 {
+  color: #ecf0f1; /* Light gray color for the heading text */
+  text-align: center;
+  border: 2px solid #fff; /* White border */
+  padding: 8px; /* Reduced padding */
+  margin: 20px auto; /* Centered and reduced margin */
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6);/* Transparent background */
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Adjust the gap between buttons */
+}
+.trash-btn{
+  background-color: orangered;
+}
+.edit-btn{
+  background-color: rgb(4, 29, 29);
+}
+
+.save-btn {
+  background-color: #3498db; /* Adjust the button background color */
+  color: #fff; /* Adjust the button text color */
+  padding: 8px 12px; /* Adjust the button padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for a smooth hover effect */
+}
+
+.edit-btn:hover,
+.trash-btn:hover,
+.save-btn:hover {
+  background-color: #2980b9; /* Adjust the hover background color */
 }
