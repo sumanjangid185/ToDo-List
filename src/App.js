@@ -31,19 +31,8 @@ function App() {
       date: '02',
       month: 'Feb',
       year: '2021' 
-    },
-    {
-      name: 'do college work',
-      date: '03',
-      month: 'Mar',
-      year: '2022'
-    },
-    {                                                                                                                                                                                                                                                                                                                        
-      name: 'my third props wala component',
-      date: '03',
-      month: 'Mar',
-      year: '2023'
     }
+    
   ]
   const [data, setData] = useState(data1);
 
