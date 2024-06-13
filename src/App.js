@@ -59,7 +59,7 @@ function App() {
     setEditingIndex(index);
     setEditName(data[index].name);
     setEditDate(`${data[index].date}-${data[index].month}-${data[index].year}`);
-    showToast('Task edited successfully!');
+   
   };
 
   const handleSave = () => {
@@ -79,6 +79,8 @@ function App() {
       setEditingIndex(null);
       setEditName('');
       setEditDate('');
+       // Show toast notification after successful edit
+     showToast('Task edited successfully!', 'blue-toast');
     }
   };
 
